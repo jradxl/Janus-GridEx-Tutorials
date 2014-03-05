@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="jsNorthWindDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="gridEXLayout1.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;AllowChildTableGroups&gt;True&lt;/AllowChildTableGroups&gt;&lt;Key&gt;Customers&lt;/Key&gt;&lt;Caption&gt;Customers&lt;/Caption&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="CustomerID"&gt;&lt;Caption&gt;CustomerID&lt;/Caption&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;CustomerID&lt;/DataMember&gt;&lt;Key&gt;CustomerID&lt;/Key&gt;&lt;MaxLength&gt;5&lt;/MaxLength&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column0&gt;&lt;Column1 ID="CompanyName"&gt;&lt;Caption&gt;CompanyName&lt;/Caption&gt;&lt;DataMember&gt;CompanyName&lt;/DataMember&gt;&lt;Key&gt;CompanyName&lt;/Key&gt;&lt;MaxLength&gt;40&lt;/MaxLength&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column1&gt;&lt;Column2 ID="ContactName"&gt;&lt;Caption&gt;ContactName&lt;/Caption&gt;&lt;DataMember&gt;ContactName&lt;/DataMember&gt;&lt;Key&gt;ContactName&lt;/Key&gt;&lt;MaxLength&gt;30&lt;/MaxLength&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column2&gt;&lt;Column3 ID="ContactTitle"&gt;&lt;Caption&gt;ContactTitle&lt;/Caption&gt;&lt;DataMember&gt;ContactTitle&lt;/DataMember&gt;&lt;Key&gt;ContactTitle&lt;/Key&gt;&lt;MaxLength&gt;30&lt;/MaxLength&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column3&gt;&lt;Column4 ID="Address"&gt;&lt;Caption&gt;Address&lt;/Caption&gt;&lt;DataMember&gt;Address&lt;/DataMember&gt;&lt;Key&gt;Address&lt;/Key&gt;&lt;MaxLength&gt;60&lt;/MaxLength&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column4&gt;&lt;Column5 ID="City"&gt;&lt;Caption&gt;City&lt;/Caption&gt;&lt;DataMember&gt;City&lt;/DataMember&gt;&lt;Key&gt;City&lt;/Key&gt;&lt;MaxLength&gt;15&lt;/MaxLength&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column5&gt;&lt;Column6 ID="Region"&gt;&lt;Caption&gt;Region&lt;/Caption&gt;&lt;DataMember&gt;Region&lt;/DataMember&gt;&lt;Key&gt;Region&lt;/Key&gt;&lt;MaxLength&gt;15&lt;/MaxLength&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column6&gt;&lt;Column7 ID="PostalCode"&gt;&lt;Caption&gt;PostalCode&lt;/Caption&gt;&lt;DataMember&gt;PostalCode&lt;/DataMember&gt;&lt;Key&gt;PostalCode&lt;/Key&gt;&lt;MaxLength&gt;10&lt;/MaxLength&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column7&gt;&lt;Column8 ID="Country"&gt;&lt;Caption&gt;Country&lt;/Caption&gt;&lt;DataMember&gt;Country&lt;/DataMember&gt;&lt;Key&gt;Country&lt;/Key&gt;&lt;MaxLength&gt;15&lt;/MaxLength&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column8&gt;&lt;Column9 ID="Phone"&gt;&lt;Caption&gt;Phone&lt;/Caption&gt;&lt;DataMember&gt;Phone&lt;/DataMember&gt;&lt;Key&gt;Phone&lt;/Key&gt;&lt;MaxLength&gt;24&lt;/MaxLength&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column9&gt;&lt;Column10 ID="Fax"&gt;&lt;Caption&gt;Fax&lt;/Caption&gt;&lt;DataMember&gt;Fax&lt;/DataMember&gt;&lt;Key&gt;Fax&lt;/Key&gt;&lt;MaxLength&gt;24&lt;/MaxLength&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column10&gt;&lt;/Columns&gt;&lt;ChildTables Collection="true"&gt;&lt;Table0 ID="Orders"&gt;&lt;AllowChildTableGroups&gt;True&lt;/AllowChildTableGroups&gt;&lt;DataMember&gt;{71E4CA64-22EC-4599-942F-1D5AE609FE25}&lt;/DataMember&gt;&lt;Key&gt;Orders&lt;/Key&gt;&lt;Caption&gt;Orders&lt;/Caption&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="OrderID"&gt;&lt;Caption&gt;OrderID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;OrderID&lt;/DataMember&gt;&lt;Key&gt;OrderID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="CustomerID"&gt;&lt;Caption&gt;CustomerID&lt;/Caption&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;CustomerID&lt;/DataMember&gt;&lt;Key&gt;CustomerID&lt;/Key&gt;&lt;MaxLength&gt;5&lt;/MaxLength&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column1&gt;&lt;Column2 ID="EmployeeID"&gt;&lt;Caption&gt;EmployeeID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;EmployeeID&lt;/DataMember&gt;&lt;Key&gt;EmployeeID&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;/Column2&gt;&lt;Column3 ID="OrderDate"&gt;&lt;Caption&gt;OrderDate&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;OrderDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;OrderDate&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="RequiredDate"&gt;&lt;Caption&gt;RequiredDate&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;RequiredDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;RequiredDate&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="ShippedDate"&gt;&lt;Caption&gt;ShippedDate&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ShippedDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;ShippedDate&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;/Column5&gt;&lt;Column6 ID="ShipVia"&gt;&lt;Caption&gt;ShipVia&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;ShipVia&lt;/DataMember&gt;&lt;Key&gt;ShipVia&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;/Column6&gt;&lt;Column7 ID="Freight"&gt;&lt;Caption&gt;Freight&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;Freight&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;Key&gt;Freight&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;/Column7&gt;&lt;Column8 ID="ShipName"&gt;&lt;Caption&gt;ShipName&lt;/Caption&gt;&lt;DataMember&gt;ShipName&lt;/DataMember&gt;&lt;Key&gt;ShipName&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;/Column8&gt;&lt;Column9 ID="ShipAddress"&gt;&lt;Caption&gt;ShipAddress&lt;/Caption&gt;&lt;DataMember&gt;ShipAddress&lt;/DataMember&gt;&lt;Key&gt;ShipAddress&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;/Column9&gt;&lt;Column10 ID="ShipCity"&gt;&lt;Caption&gt;ShipCity&lt;/Caption&gt;&lt;DataMember&gt;ShipCity&lt;/DataMember&gt;&lt;Key&gt;ShipCity&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;/Column10&gt;&lt;Column11 ID="ShipRegion"&gt;&lt;Caption&gt;ShipRegion&lt;/Caption&gt;&lt;DataMember&gt;ShipRegion&lt;/DataMember&gt;&lt;Key&gt;ShipRegion&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;/Column11&gt;&lt;Column12 ID="ShipPostalCode"&gt;&lt;Caption&gt;ShipPostalCode&lt;/Caption&gt;&lt;DataMember&gt;ShipPostalCode&lt;/DataMember&gt;&lt;Key&gt;ShipPostalCode&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;/Column12&gt;&lt;Column13 ID="ShipCountry"&gt;&lt;Caption&gt;ShipCountry&lt;/Caption&gt;&lt;DataMember&gt;ShipCountry&lt;/DataMember&gt;&lt;Key&gt;ShipCountry&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;/Column13&gt;&lt;Column14 ID="Paid"&gt;&lt;Caption&gt;Paid&lt;/Caption&gt;&lt;DataTypeCode&gt;Boolean&lt;/DataTypeCode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;Paid&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;Paid&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;ChildTables Collection="true"&gt;&lt;Table0 ID="OrderDetails"&gt;&lt;AllowChildTableGroups&gt;True&lt;/AllowChildTableGroups&gt;&lt;DataMember&gt;{22D433F2-9685-4AB7-A1E4-5748131A8910}&lt;/DataMember&gt;&lt;Key&gt;OrderDetails&lt;/Key&gt;&lt;Caption&gt;Order Details&lt;/Caption&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="OrderID"&gt;&lt;Caption&gt;OrderID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;OrderID&lt;/DataMember&gt;&lt;Key&gt;OrderID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="ProductID"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;ProductID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;ProductID&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;MultiColumnCombo&lt;/EditType&gt;&lt;Key&gt;ProductID&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;DropDownIndex&gt;0&lt;/DropDownIndex&gt;&lt;/Column1&gt;&lt;Column2 ID="UnitPrice"&gt;&lt;Caption&gt;UnitPrice&lt;/Caption&gt;&lt;DataTypeCode&gt;Decimal&lt;/DataTypeCode&gt;&lt;DataMember&gt;UnitPrice&lt;/DataMember&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;Key&gt;UnitPrice&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;/Column2&gt;&lt;Column3 ID="Quantity"&gt;&lt;Caption&gt;Quantity&lt;/Caption&gt;&lt;DataTypeCode&gt;Int16&lt;/DataTypeCode&gt;&lt;DataMember&gt;Quantity&lt;/DataMember&gt;&lt;Key&gt;Quantity&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="Discount"&gt;&lt;Caption&gt;Discount&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Discount&lt;/DataMember&gt;&lt;FormatString&gt;p&lt;/FormatString&gt;&lt;Key&gt;Discount&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="Total"&gt;&lt;Caption&gt;Total&lt;/Caption&gt;&lt;DataTypeCode&gt;Object&lt;/DataTypeCode&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;c&lt;/FormatString&gt;&lt;Key&gt;Total&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;/Column5&gt;&lt;/Columns&gt;&lt;GroupCondition ID="" /&gt;&lt;/Table0&gt;&lt;/ChildTables&gt;&lt;GroupCondition ID="" /&gt;&lt;/Table0&gt;&lt;/ChildTables&gt;&lt;GroupCondition ID="" /&gt;&lt;/RootTable&gt;&lt;DropDowns Collection="true"&gt;&lt;DropDown0&gt;&lt;RootTable&gt;&lt;AllowChildTableGroups&gt;True&lt;/AllowChildTableGroups&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="ProductID"&gt;&lt;Caption&gt;ProductID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;ProductID&lt;/DataMember&gt;&lt;Key&gt;ProductID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column0&gt;&lt;Column1 ID="ProductName"&gt;&lt;Caption&gt;ProductName&lt;/Caption&gt;&lt;DataMember&gt;ProductName&lt;/DataMember&gt;&lt;Key&gt;ProductName&lt;/Key&gt;&lt;MaxLength&gt;40&lt;/MaxLength&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;DefaultValue&gt;{DBNULL}&lt;/DefaultValue&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition ID="" /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;Font&gt;Microsoft Sans Serif, 8.25pt&lt;/Font&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;AllowChildTableGroups&gt;False&lt;/AllowChildTableGroups&gt;&lt;Key&gt;Products&lt;/Key&gt;&lt;DisplayMember&gt;ProductName&lt;/DisplayMember&gt;&lt;ValueMember&gt;ProductID&lt;/ValueMember&gt;&lt;/DropDown0&gt;&lt;/DropDowns&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="customersTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>175, 17</value>
+  </metadata>
+  <metadata name="order_DetailsTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>350, 17</value>
+  </metadata>
+  <metadata name="ordersTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>540, 17</value>
+  </metadata>
+  <metadata name="productsTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>695, 17</value>
+  </metadata>
+</root>

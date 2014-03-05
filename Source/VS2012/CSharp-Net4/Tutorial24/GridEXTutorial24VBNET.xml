@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GridEXTutorial24CSharp</name>
+    </assembly>
+    <members>
+        <member name="M:GridEXTutorial24.Form1.Dispose(System.Boolean)">
+            <summary>
+            Form overrides dispose to clean up the component list.
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:GridEXTutorial24.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GridEXTutorial24.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GridEXTutorial24.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

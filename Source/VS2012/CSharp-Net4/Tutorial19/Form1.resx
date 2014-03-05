@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="employeesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>170, 17</value>
+  </metadata>
+  <metadata name="jSNorthWindDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="gridEXLayout1.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;AllowChildTableGroups&gt;True&lt;/AllowChildTableGroups&gt;&lt;Caption&gt;Employees&lt;/Caption&gt;&lt;Columns Collection="true"&gt;&lt;Column0 ID="EmployeeID"&gt;&lt;Caption&gt;EmployeeID&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;EmployeeID&lt;/DataMember&gt;&lt;Key&gt;EmployeeID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="LastName"&gt;&lt;Caption&gt;LastName&lt;/Caption&gt;&lt;DataMember&gt;LastName&lt;/DataMember&gt;&lt;Key&gt;LastName&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;Column2 ID="FirstName"&gt;&lt;Caption&gt;FirstName&lt;/Caption&gt;&lt;DataMember&gt;FirstName&lt;/DataMember&gt;&lt;Key&gt;FirstName&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;/Column2&gt;&lt;Column3 ID="Title"&gt;&lt;Caption&gt;Title&lt;/Caption&gt;&lt;DataMember&gt;Title&lt;/DataMember&gt;&lt;Key&gt;Title&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="TitleOfCourtesy"&gt;&lt;Caption&gt;TitleOfCourtesy&lt;/Caption&gt;&lt;DataMember&gt;TitleOfCourtesy&lt;/DataMember&gt;&lt;Key&gt;TitleOfCourtesy&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="BirthDate"&gt;&lt;Caption&gt;BirthDate&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;BirthDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;BirthDate&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;/Column5&gt;&lt;Column6 ID="HireDate"&gt;&lt;Caption&gt;HireDate&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;HireDate&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;HireDate&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;/Column6&gt;&lt;Column7 ID="Address"&gt;&lt;Caption&gt;Address&lt;/Caption&gt;&lt;DataMember&gt;Address&lt;/DataMember&gt;&lt;Key&gt;Address&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;/Column7&gt;&lt;Column8 ID="City"&gt;&lt;Caption&gt;City&lt;/Caption&gt;&lt;DataMember&gt;City&lt;/DataMember&gt;&lt;Key&gt;City&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;/Column8&gt;&lt;Column9 ID="Region"&gt;&lt;Caption&gt;Region&lt;/Caption&gt;&lt;DataMember&gt;Region&lt;/DataMember&gt;&lt;Key&gt;Region&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;/Column9&gt;&lt;Column10 ID="PostalCode"&gt;&lt;Caption&gt;PostalCode&lt;/Caption&gt;&lt;DataMember&gt;PostalCode&lt;/DataMember&gt;&lt;Key&gt;PostalCode&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="Country"&gt;&lt;Caption&gt;Country&lt;/Caption&gt;&lt;DataMember&gt;Country&lt;/DataMember&gt;&lt;Key&gt;Country&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;/Column11&gt;&lt;Column12 ID="HomePhone"&gt;&lt;Caption&gt;HomePhone&lt;/Caption&gt;&lt;DataMember&gt;HomePhone&lt;/DataMember&gt;&lt;Key&gt;HomePhone&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="Extension"&gt;&lt;Caption&gt;Extension&lt;/Caption&gt;&lt;DataMember&gt;Extension&lt;/DataMember&gt;&lt;Key&gt;Extension&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Width&gt;95&lt;/Width&gt;&lt;/Column13&gt;&lt;Column14 ID="Photo"&gt;&lt;Caption&gt;Photo&lt;/Caption&gt;&lt;DataTypeCode&gt;Object&lt;/DataTypeCode&gt;&lt;ColumnType&gt;BoundImage&lt;/ColumnType&gt;&lt;DataMember&gt;Photo&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;ImageSize&gt;64, 64&lt;/ImageSize&gt;&lt;Key&gt;Photo&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;/Column14&gt;&lt;Column15 ID="Notes"&gt;&lt;Caption&gt;Notes&lt;/Caption&gt;&lt;DataMember&gt;Notes&lt;/DataMember&gt;&lt;Key&gt;Notes&lt;/Key&gt;&lt;MaxLines&gt;2&lt;/MaxLines&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;WordWrap&gt;True&lt;/WordWrap&gt;&lt;/Column15&gt;&lt;Column16 ID="ReportsTo"&gt;&lt;Caption&gt;ReportsTo&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReportsTo&lt;/DataMember&gt;&lt;Key&gt;ReportsTo&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;/Column16&gt;&lt;/Columns&gt;&lt;CellLayoutMode&gt;UseColumnSets&lt;/CellLayoutMode&gt;&lt;ColumnSets Collection="true"&gt;&lt;ColumnSet0 ID=""&gt;&lt;Caption&gt;Personal Data&lt;/Caption&gt;&lt;ColumnCount&gt;3&lt;/ColumnCount&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;ColumnWidth0&gt;68&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;100&lt;/ColumnWidth2&gt;&lt;EntriesCount&gt;7&lt;/EntriesCount&gt;&lt;ColIndex0&gt;0&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;1&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;1&lt;/ColIndex1&gt;&lt;Row1&gt;2&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;ColIndex2&gt;2&lt;/ColIndex2&gt;&lt;Row2&gt;1&lt;/Row2&gt;&lt;Col2&gt;1&lt;/Col2&gt;&lt;RowSpan2&gt;1&lt;/RowSpan2&gt;&lt;ColSpan2&gt;1&lt;/ColSpan2&gt;&lt;ColIndex3&gt;3&lt;/ColIndex3&gt;&lt;Row3&gt;0&lt;/Row3&gt;&lt;Col3&gt;2&lt;/Col3&gt;&lt;RowSpan3&gt;1&lt;/RowSpan3&gt;&lt;ColSpan3&gt;1&lt;/ColSpan3&gt;&lt;ColIndex4&gt;4&lt;/ColIndex4&gt;&lt;Row4&gt;1&lt;/Row4&gt;&lt;Col4&gt;2&lt;/Col4&gt;&lt;RowSpan4&gt;1&lt;/RowSpan4&gt;&lt;ColSpan4&gt;1&lt;/ColSpan4&gt;&lt;ColIndex5&gt;5&lt;/ColIndex5&gt;&lt;Row5&gt;2&lt;/Row5&gt;&lt;Col5&gt;2&lt;/Col5&gt;&lt;RowSpan5&gt;1&lt;/RowSpan5&gt;&lt;ColSpan5&gt;1&lt;/ColSpan5&gt;&lt;ColIndex6&gt;14&lt;/ColIndex6&gt;&lt;Row6&gt;0&lt;/Row6&gt;&lt;Col6&gt;0&lt;/Col6&gt;&lt;RowSpan6&gt;3&lt;/RowSpan6&gt;&lt;ColSpan6&gt;1&lt;/ColSpan6&gt;&lt;/ColumnSet0&gt;&lt;ColumnSet1 ID=""&gt;&lt;Caption&gt;Address Information&lt;/Caption&gt;&lt;ColumnCount&gt;3&lt;/ColumnCount&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;95&lt;/ColumnWidth2&gt;&lt;EntriesCount&gt;7&lt;/EntriesCount&gt;&lt;ColIndex0&gt;7&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;3&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;8&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;ColIndex2&gt;9&lt;/ColIndex2&gt;&lt;Row2&gt;1&lt;/Row2&gt;&lt;Col2&gt;1&lt;/Col2&gt;&lt;RowSpan2&gt;1&lt;/RowSpan2&gt;&lt;ColSpan2&gt;1&lt;/ColSpan2&gt;&lt;ColIndex3&gt;10&lt;/ColIndex3&gt;&lt;Row3&gt;0&lt;/Row3&gt;&lt;Col3&gt;2&lt;/Col3&gt;&lt;RowSpan3&gt;1&lt;/RowSpan3&gt;&lt;ColSpan3&gt;1&lt;/ColSpan3&gt;&lt;ColIndex4&gt;11&lt;/ColIndex4&gt;&lt;Row4&gt;2&lt;/Row4&gt;&lt;Col4&gt;1&lt;/Col4&gt;&lt;RowSpan4&gt;1&lt;/RowSpan4&gt;&lt;ColSpan4&gt;1&lt;/ColSpan4&gt;&lt;ColIndex5&gt;12&lt;/ColIndex5&gt;&lt;Row5&gt;1&lt;/Row5&gt;&lt;Col5&gt;2&lt;/Col5&gt;&lt;RowSpan5&gt;1&lt;/RowSpan5&gt;&lt;ColSpan5&gt;1&lt;/ColSpan5&gt;&lt;ColIndex6&gt;13&lt;/ColIndex6&gt;&lt;Row6&gt;2&lt;/Row6&gt;&lt;Col6&gt;2&lt;/Col6&gt;&lt;RowSpan6&gt;1&lt;/RowSpan6&gt;&lt;ColSpan6&gt;1&lt;/ColSpan6&gt;&lt;/ColumnSet1&gt;&lt;ColumnSet2 ID=""&gt;&lt;Caption&gt;Notes&lt;/Caption&gt;&lt;ColumnCount&gt;1&lt;/ColumnCount&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;EntriesCount&gt;1&lt;/EntriesCount&gt;&lt;ColIndex0&gt;15&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;3&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;/ColumnSet2&gt;&lt;/ColumnSets&gt;&lt;ColumnSetRowCount&gt;3&lt;/ColumnSetRowCount&gt;&lt;GroupCondition ID="" /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="employeesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>345, 17</value>
+  </metadata>
+</root>
